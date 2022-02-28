@@ -8,14 +8,17 @@ import kotlinx.serialization.*
 @Suppress("unused", "SpellCheckingInspection")
 @Serializable
 enum class Related {
+
     /**
      *  默认，无
      */
+    @SerialName("none")
     None,
 
     /**
      * 这部漫画的单色变体
      */
+    @SerialName("monochrome")
     Monochrome,
 
     /**
@@ -112,9 +115,6 @@ enum class Related {
      * 另一个故事
      * 这部漫画的另一个故事
      */
-    /// <summary>
-
-    /// </summary>
     @SerialName("alternate_story")
     AlternateStory,
 

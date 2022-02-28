@@ -1,5 +1,7 @@
 package com.sou1maker.dex.models
 
+import kotlinx.serialization.*
+
 /**
  * 章节
  * @property Hash String 哈希
@@ -7,4 +9,12 @@ package com.sou1maker.dex.models
  * @property DataSaver Iterable<String> 压缩质量数据
  * @constructor
  */
-data class AtHomeChapter(var Hash: String, var Data: Iterable<String>, var DataSaver: Iterable<String>)
+@Serializable
+data class AtHomeChapter(
+    @SerialName("hash")
+    var Hash: String,
+    @SerialName("data")
+    var Data: Iterable<String>,
+    @SerialName("dataSaver")
+    var DataSaver: Iterable<String>
+)

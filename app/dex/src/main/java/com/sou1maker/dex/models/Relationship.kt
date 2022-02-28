@@ -1,7 +1,7 @@
 package com.sou1maker.dex.models
 
-import com.sou1maker.dex.models.enums.Related
-import com.sou1maker.dex.models.enums.Type
+import com.sou1maker.dex.models.enums.*
+import kotlinx.serialization.*
 
 /**
  * 关系
@@ -11,9 +11,14 @@ import com.sou1maker.dex.models.enums.Type
  * @property Attributes Object 属性 If Reference Expansion is applied, contains objects attributes
  * @constructor
  */
+@Serializable
 data class Relationship(
+    @SerialName("id")
     var Id: String,
+    @SerialName("type")
     var Type: Type,
+    @SerialName("related")
     var Related: Related?,
+    @SerialName("attributes")
     var Attributes: Any
 )

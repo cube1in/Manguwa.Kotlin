@@ -11,16 +11,19 @@ enum class Type {
     /**
      * 默认，无
      */
+    @SerialName("none")
     None,
 
     /**
      * 漫画资源
      */
+    @SerialName("manga")
     Manga,
 
     /**
      * 标签资源
      */
+    @SerialName("tag")
     Tag,
 
     /**
@@ -32,6 +35,7 @@ enum class Type {
     /**
      * 章节资源
      */
+    @SerialName("chapter")
     Chapter,
 
     /**
@@ -43,6 +47,7 @@ enum class Type {
     /**
      * 用户资源
      */
+    @SerialName("user")
     User,
 
     /**
@@ -54,12 +59,14 @@ enum class Type {
     /**
      * 作者资源
      */
+    @SerialName("author")
     Author,
 
     /**
      * 作者资源（仅限抽屉）
      * Author resource (drawers only)
      */
+    @SerialName("artist")
     Artist,
 
     /**
@@ -89,5 +96,6 @@ enum class Type {
     /**
      * 报告
      */
+    @SerialName("report")
     Report
 }
