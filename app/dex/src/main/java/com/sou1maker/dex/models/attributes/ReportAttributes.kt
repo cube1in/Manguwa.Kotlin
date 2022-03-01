@@ -14,11 +14,11 @@ import kotlinx.serialization.*
 @Serializable
 data class ReportAttributes(
     @SerialName("objectId")
-    var ObjectId: String,
+    val ObjectId: String,
     @SerialName("details")
-    var Details: String,
+    val Details: String,
     @SerialName("reportStatus")
-    var Status: ReportStatus,
+    val Status: ReportStatus,
     @SerialName("createdAt")
-    var CreatedAt: String,
+    val CreatedAt: String,
 )

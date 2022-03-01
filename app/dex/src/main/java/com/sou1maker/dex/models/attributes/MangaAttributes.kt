@@ -26,42 +26,42 @@ import kotlinx.serialization.*
 @Serializable
 data class MangaAttributes(
     @SerialName("title")
-    var Title: String,
+    val Title: String,
     @SerialName("altTitles")
-    var AltTitles: Iterable<LocalizedString>,
+    val AltTitles: Iterable<LocalizedString>,
 
     // TODO: object or array
     @SerialName("description")
-    var Description: LocalizedString?,
+    val Description: LocalizedString?,
     @SerialName("isLocked")
-    var IsLocked: Boolean,
+    val IsLocked: Boolean,
     @SerialName("links")
-    var Links: Any,
+    val Links: Any,
     @SerialName("originalLanguage")
-    var OriginalLanguage: String,
+    val OriginalLanguage: String,
     @SerialName("lastVolume")
-    var LastVolume: String?,
+    val LastVolume: String?,
     @SerialName("lastChapter")
-    var LastChapter: String?,
+    val LastChapter: String?,
     @SerialName("publicationDemographic")
-    var PublicationDemographic: PublicationDemographic?,
+    val PublicationDemographic: PublicationDemographic?,
     @SerialName("status")
-    var Status: MangaStatus?,
+    val Status: MangaStatus?,
     @SerialName("year")
-    var Year: Int?,
+    val Year: Int?,
     @SerialName("contentRating")
-    var ContentRating: ContentRating,
+    val ContentRating: ContentRating,
     @SerialName("chapterNumbersResetOnNewVolume")
-    var ChapterNumbersResetOnNewVolume: Boolean,
+    val ChapterNumbersResetOnNewVolume: Boolean,
     @SerialName("tags")
-    var Tags: Iterable<String>,
+    val Tags: Iterable<String>,
     @SerialName("state")
-    var State: UploadState,
+    val State: UploadState,
 
     @SerialName("createdAt")
-    var CreatedAt: String,
+    val CreatedAt: String,
     @SerialName("updatedAt")
-    var UpdatedAt: String,
+    val UpdatedAt: String,
     @SerialName("version")
-    var Version: Int,
+    val Version: Int,
 )

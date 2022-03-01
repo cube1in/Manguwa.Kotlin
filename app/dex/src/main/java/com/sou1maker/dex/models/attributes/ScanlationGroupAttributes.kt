@@ -26,40 +26,40 @@ import kotlinx.serialization.*
 @Serializable
 data class ScanlationGroupAttributes(
     @SerialName("name")
-    var Name: String,
+    val Name: String,
     @SerialName("altNames")
-    var AltNames: Iterable<LocalizedString>,
+    val AltNames: Iterable<LocalizedString>,
     @SerialName("website")
-    var Website: String?,
+    val Website: String?,
     @SerialName("ircServer")
-    var IrcServer: String?,
+    val IrcServer: String?,
     @SerialName("ircChannel")
-    var IrcChannel: String?,
+    val IrcChannel: String?,
     @SerialName("discord")
-    var Discord: String?,
+    val Discord: String?,
     @SerialName("contactEmail")
-    var ContactEmail: String?,
+    val ContactEmail: String?,
     @SerialName("description")
-    var Description: String?,
+    val Description: String?,
     @SerialName("twitter")
-    var Twitter: String?,
+    val Twitter: String?,
     @SerialName("mangaUpdates")
-    var MangaUpdates: String?,
+    val MangaUpdates: String?,
     @SerialName("focusedLanguage")
-    var FocusedLanguage: Iterable<String>?,
+    val FocusedLanguage: Iterable<String>?,
     @SerialName("locked")
-    var Locked: Boolean,
+    val Locked: Boolean,
     @SerialName("official")
-    var Official: Boolean,
+    val Official: Boolean,
     @SerialName("inactive")
-    var Inactive: Boolean,
+    val Inactive: Boolean,
     @SerialName("publishDelay")
-    var PublishDelay: String,
+    val PublishDelay: String,
 
     @SerialName("createdAt")
-    var CreatedAt: String,
+    val CreatedAt: String,
     @SerialName("updatedAt")
-    var UpdatedAt: String,
+    val UpdatedAt: String,
     @SerialName("version")
-    var Version: Int,
+    val Version: Int,
 )

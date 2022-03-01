@@ -14,11 +14,11 @@ import kotlinx.serialization.*
 @Serializable
 data class Relationship(
     @SerialName("id")
-    var Id: String,
+    val Id: String,
     @SerialName("type")
-    var Type: Type,
+    val Type: Type,
     @SerialName("related")
-    var Related: Related?,
+    val Related: Related?,
     @SerialName("attributes")
-    var Attributes: Any
+    val Attributes: Any
 )

@@ -11,10 +11,10 @@ import kotlinx.serialization.*
 @Serializable
 data class UserAttributes(
     @SerialName("username")
-    var Username: String,
+    val Username: String,
     @SerialName("roles")
-    var Roles: Iterable<String>,
+    val Roles: Iterable<String>,
 
     @SerialName("version")
-    var Version: Int,
+    val Version: Int,
 )

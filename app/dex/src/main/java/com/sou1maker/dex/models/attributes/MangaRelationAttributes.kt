@@ -11,8 +11,8 @@ import kotlinx.serialization.*
 @Serializable
 data class MangaRelationAttributes(
     @SerialName("relation")
-    var Relation: Related,
+    val Relation: Related,
 
     @SerialName("version")
-    var Version: Int,
+    val Version: Int,
 )

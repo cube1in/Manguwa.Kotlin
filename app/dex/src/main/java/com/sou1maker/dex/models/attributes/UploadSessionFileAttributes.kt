@@ -15,16 +15,16 @@ import kotlinx.serialization.*
 @Serializable
 data class UploadSessionFileAttributes(
     @SerialName("originalFileName")
-    var OriginalFileName: String,
+    val OriginalFileName: String,
     @SerialName("fileHash")
-    var FileHash: String,
+    val FileHash: String,
     @SerialName("mimeType")
-    var MimeType: String,
+    val MimeType: String,
     @SerialName("fileSize")
-    var FileSize: Int,
+    val FileSize: Int,
     @SerialName("source")
-    var Source: Source,
+    val Source: Source,
 
     @SerialName("version")
-    var Version: Int,
+    val Version: Int,
 )

@@ -12,9 +12,9 @@ import kotlinx.serialization.*
 @Serializable
 data class AtHomeChapter(
     @SerialName("hash")
-    var Hash: String,
+    val Hash: String,
     @SerialName("data")
-    var Data: Iterable<String>,
+    val Data: Iterable<String>,
     @SerialName("dataSaver")
-    var DataSaver: Iterable<String>
+    val DataSaver: Iterable<String>
 )

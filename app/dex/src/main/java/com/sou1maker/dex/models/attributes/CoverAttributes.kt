@@ -14,18 +14,18 @@ import kotlinx.serialization.*
 @Serializable
 data class CoverAttributes(
     @SerialName("fileName")
-    var FileName: String,
+    val FileName: String,
     @SerialName("volume")
-    var Volume: String?,
+    val Volume: String?,
     @SerialName("description")
-    var Description: String?,
+    val Description: String?,
     @SerialName("locale")
-    var Locale: String?,
+    val Locale: String?,
 
     @SerialName("createdAt")
-    var CreatedAt: String,
+    val CreatedAt: String,
     @SerialName("updatedAt")
-    var UpdatedAt: String,
+    val UpdatedAt: String,
     @SerialName("version")
-    var Version: Int,
+    val Version: Int,
 )

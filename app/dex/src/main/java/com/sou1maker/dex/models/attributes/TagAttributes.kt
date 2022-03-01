@@ -13,14 +13,14 @@ import kotlinx.serialization.*
 @Serializable
 data class TagAttributes(
     @SerialName("name")
-    var Name: String,
+    val Name: String,
     @SerialName("group")
-    var Group: String,
+    val Group: String,
 
     // TODO: object or array
     @SerialName("description")
-    var Description: LocalizedString?,
+    val Description: LocalizedString?,
     
     @SerialName("version")
-    var Version: Int,
+    val Version: Int,
 )

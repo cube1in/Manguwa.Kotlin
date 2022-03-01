@@ -18,28 +18,28 @@ import kotlinx.serialization.*
 @Serializable
 data class ChapterAttributes(
     @SerialName("title")
-    var Title: String,
+    val Title: String,
     @SerialName("publishAt")
-    var PublishAt: String,
+    val PublishAt: String,
     @SerialName("readableAt")
-    var ReadableAt: String,
+    val ReadableAt: String,
     @SerialName("uploader")
-    var Uploader: String,
+    val Uploader: String,
     @SerialName("translatedLanguage")
-    var TranslatedLanguage: String,
+    val TranslatedLanguage: String,
     @SerialName("volume")
-    var Volume: String?,
+    val Volume: String?,
     @SerialName("chapter")
-    var Chapter: String?,
+    val Chapter: String?,
     @SerialName("pages")
-    var Pages: String,
+    val Pages: String,
     @SerialName("externalUrl")
-    var ExternalUrl: String?,
+    val ExternalUrl: String?,
 
     @SerialName("createdAt")
-    var CreatedAt: String,
+    val CreatedAt: String,
     @SerialName("updatedAt")
-    var UpdatedAt: String,
+    val UpdatedAt: String,
     @SerialName("version")
-    var Version: Int,
+    val Version: Int,
 )

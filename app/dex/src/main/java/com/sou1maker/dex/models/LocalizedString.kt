@@ -10,1139 +10,1139 @@ data class LocalizedString(
      * Afar
      */
     @SerialName("aa")
-    var Afar: String?,
+    val Afar: String?,
 
     /**
      * Abkhazian
      */
     @SerialName("ab")
-    var Abkhazian: String?,
+    val Abkhazian: String?,
 
     /**
      * Avestan
      */
     @SerialName("ae")
-    var Avestan: String?,
+    val Avestan: String?,
 
     /**
      * Afrikaans
      */
     @SerialName("af")
-    var Afrikaans: String?,
+    val Afrikaans: String?,
 
     /**
      * Akan
      */
     @SerialName("ak")
-    var Akan: String?,
+    val Akan: String?,
 
     /**
      * Amharic
      */
     @SerialName("am")
-    var Amharic: String?,
+    val Amharic: String?,
 
     /**
      * Aragonese
      */
     @SerialName("an")
-    var Aragonese: String?,
+    val Aragonese: String?,
 
     /**
      * Arabic
      */
     @SerialName("ar")
-    var Arabic: String?,
+    val Arabic: String?,
 
     /**
      * Assamese
      */
     @SerialName("as")
-    var Assamese: String?,
+    val Assamese: String?,
 
     /**
      * Avaric
      */
     @SerialName("av")
-    var Avaric: String?,
+    val Avaric: String?,
 
     /**
      * Aymara
      */
     @SerialName("ay")
-    var Aymara: String?,
+    val Aymara: String?,
 
     /**
      * Azerbaijani
      */
     @SerialName("az")
-    var Azerbaijani: String?,
+    val Azerbaijani: String?,
 
     /**
      * Bashkir
      */
     @SerialName("ba")
-    var Bashkir: String?,
+    val Bashkir: String?,
 
     /**
      * Belarusian
      */
     @SerialName("be")
-    var Belarusian: String?,
+    val Belarusian: String?,
 
     /**
      * Bulgarian
      */
     @SerialName("bg")
-    var Bulgarian: String?,
+    val Bulgarian: String?,
 
     /**
      * Biharilanguages
      */
     @SerialName("bh")
-    var Biharilanguages: String?,
+    val Biharilanguages: String?,
 
     /**
      * Bislama
      */
     @SerialName("bi")
-    var Bislama: String?,
+    val Bislama: String?,
 
     /**
      * Bambara
      */
     @SerialName("bm")
-    var Bambara: String?,
+    val Bambara: String?,
 
     /**
      * Bengali
      */
     @SerialName("bn")
-    var Bengali: String?,
+    val Bengali: String?,
 
     /**
      * Tibetan
      */
     @SerialName("bo")
-    var Tibetan: String?,
+    val Tibetan: String?,
 
     /**
      * Breton
      */
     @SerialName("br")
-    var Breton: String?,
+    val Breton: String?,
 
     /**
      * Bosnian
      */
     @SerialName("bs")
-    var Bosnian: String?,
+    val Bosnian: String?,
 
     /**
      * Catalan
      */
     @SerialName("ca")
-    var Catalan: String?,
+    val Catalan: String?,
 
     /**
      * Chechen
      */
     @SerialName("ce")
-    var Chechen: String?,
+    val Chechen: String?,
 
     /**
      * Chamorro
      */
     @SerialName("ch")
-    var Chamorro: String?,
+    val Chamorro: String?,
 
     /**
      * Corsican
      */
     @SerialName("co")
-    var Corsican: String?,
+    val Corsican: String?,
 
     /**
      * Cree
      */
     @SerialName("cr")
-    var Cree: String?,
+    val Cree: String?,
 
     /**
      * Czech
      */
     @SerialName("cs")
-    var Czech: String?,
+    val Czech: String?,
 
     /**
      * ChurchSlavic
      */
     @SerialName("cu")
-    var ChurchSlavic: String?,
+    val ChurchSlavic: String?,
 
     /**
      * Chuvash
      */
     @SerialName("cv")
-    var Chuvash: String?,
+    val Chuvash: String?,
 
     /**
      * Welsh
      */
     @SerialName("cy")
-    var Welsh: String?,
+    val Welsh: String?,
 
     /**
      * Danish
      */
     @SerialName("da")
-    var Danish: String?,
+    val Danish: String?,
 
     /**
      * German
      */
     @SerialName("de")
-    var German: String?,
+    val German: String?,
 
     /**
      * Divehi
      */
     @SerialName("dv")
-    var Divehi: String?,
+    val Divehi: String?,
 
     /**
      * Dzongkha
      */
     @SerialName("dz")
-    var Dzongkha: String?,
+    val Dzongkha: String?,
 
     /**
      * Ewe
      */
     @SerialName("ee")
-    var Ewe: String?,
+    val Ewe: String?,
 
     /**
      * Greek
      */
     @SerialName("el")
-    var Greek: String?,
+    val Greek: String?,
 
     /**
      * English
      */
     @SerialName("en")
-    var English: String?,
+    val English: String?,
 
     /**
      * Esperanto
      */
     @SerialName("eo")
-    var Esperanto: String?,
+    val Esperanto: String?,
 
     /**
      * 西班牙语
      */
     @SerialName("es")
-    var Spanish: String?,
+    val Spanish: String?,
 
     /**
      * 拉丁美洲西班牙语
      */
     @SerialName("es-la")
-    var LatinAmericanSpanish: String?,
+    val LatinAmericanSpanish: String?,
 
     /**
      * Estonian
      */
     @SerialName("et")
-    var Estonian: String?,
+    val Estonian: String?,
 
     /**
      * Basque
      */
     @SerialName("eu")
-    var Basque: String?,
+    val Basque: String?,
 
     /**
      * Persian
      */
     @SerialName("fa")
-    var Persian: String?,
+    val Persian: String?,
 
     /**
      * Fulah
      */
     @SerialName("ff")
-    var Fulah: String?,
+    val Fulah: String?,
 
     /**
      * Finnish
      */
     @SerialName("fi")
-    var Finnish: String?,
+    val Finnish: String?,
 
     /**
      * Fijian
      */
     @SerialName("fj")
-    var Fijian: String?,
+    val Fijian: String?,
 
     /**
      * Faroese
      */
     @SerialName("fo")
-    var Faroese: String?,
+    val Faroese: String?,
 
     /**
      * French
      */
     @SerialName("fr")
-    var French: String?,
+    val French: String?,
 
     /**
      * WesternFrisian
      */
     @SerialName("fy")
-    var WesternFrisian: String?,
+    val WesternFrisian: String?,
 
     /**
      * Irish
      */
     @SerialName("ga")
-    var Irish: String?,
+    val Irish: String?,
 
     /**
      * Gaelic
      */
     @SerialName("gd")
-    var Gaelic: String?,
+    val Gaelic: String?,
 
     /**
      * Galician
      */
     @SerialName("gl")
-    var Galician: String?,
+    val Galician: String?,
 
     /**
      * Guarani
      */
     @SerialName("gn")
-    var Guarani: String?,
+    val Guarani: String?,
 
     /**
      * Gujarati
      */
     @SerialName("gu")
-    var Gujarati: String?,
+    val Gujarati: String?,
 
     /**
      * Manx
      */
     @SerialName("gv")
-    var Manx: String?,
+    val Manx: String?,
 
     /**
      * Hausa
      */
     @SerialName("ha")
-    var Hausa: String?,
+    val Hausa: String?,
 
     /**
      * Hebrew
      */
     @SerialName("he")
-    var Hebrew: String?,
+    val Hebrew: String?,
 
     /**
      * Hindi
      */
     @SerialName("hi")
-    var Hindi: String?,
+    val Hindi: String?,
 
     /**
      * HiriMotu
      */
     @SerialName("ho")
-    var HiriMotu: String?,
+    val HiriMotu: String?,
 
     /**
      * Croatian
      */
     @SerialName("hr")
-    var Croatian: String?,
+    val Croatian: String?,
 
     /**
      * Haitian
      */
     @SerialName("ht")
-    var Haitian: String?,
+    val Haitian: String?,
 
     /**
      * Hungarian
      */
     @SerialName("hu")
-    var Hungarian: String?,
+    val Hungarian: String?,
 
     /**
      * Armenian
      */
     @SerialName("hy")
-    var Armenian: String?,
+    val Armenian: String?,
 
     /**
      * Herero
      */
     @SerialName("hz")
-    var Herero: String?,
+    val Herero: String?,
 
     /**
      * Interlingua(InternationalAuxiliaryLanguageAssociation)
      */
     @SerialName("ia")
-    var Interlingua: String?,
+    val Interlingua: String?,
 
     /**
      * Indonesian
      */
     @SerialName("id")
-    var Indonesian: String?,
+    val Indonesian: String?,
 
     /**
      * Interlingue
      */
     @SerialName("ie")
-    var Interlingue: String?,
+    val Interlingue: String?,
 
     /**
      * Igbo
      */
     @SerialName("ig")
-    var Igbo: String?,
+    val Igbo: String?,
 
     /**
      * SichuanYi
      */
     @SerialName("ii")
-    var SichuanYi: String?,
+    val SichuanYi: String?,
 
     /**
      * Inupiaq
      */
     @SerialName("ik")
-    var Inupiaq: String?,
+    val Inupiaq: String?,
 
     /**
      * Ido
      */
     @SerialName("io")
-    var Ido: String?,
+    val Ido: String?,
 
     /**
      * Icelandic
      */
     @SerialName("is")
-    var Icelandic: String?,
+    val Icelandic: String?,
 
     /**
      * Italian
      */
     @SerialName("it")
-    var Italian: String?,
+    val Italian: String?,
 
     /**
      * Inuktitut
      */
     @SerialName("iu")
-    var Inuktitut: String?,
+    val Inuktitut: String?,
 
     /**
      * 日语
      */
     @SerialName("ja")
-    var Japanese: String?,
+    val Japanese: String?,
 
     /**
      * 罗马化的日语
      */
     @SerialName("ja-ro")
-    var RomanizedJapanese: String?,
+    val RomanizedJapanese: String?,
 
     /**
      * Javanese
      */
     @SerialName("jv")
-    var Javanese: String?,
+    val Javanese: String?,
 
     /**
      * Georgian
      */
     @SerialName("ka")
-    var Georgian: String?,
+    val Georgian: String?,
 
     /**
      * Kongo
      */
     @SerialName("kg")
-    var Kongo: String?,
+    val Kongo: String?,
 
     /**
      * Kikuyu
      */
     @SerialName("ki")
-    var Kikuyu: String?,
+    val Kikuyu: String?,
 
     /**
      * Kuanyama
      */
     @SerialName("kj")
-    var Kuanyama: String?,
+    val Kuanyama: String?,
 
     /**
      * Kazakh
      */
     @SerialName("kk")
-    var Kazakh: String?,
+    val Kazakh: String?,
 
     /**
      * Kalaallisut
      */
     @SerialName("kl")
-    var Kalaallisut: String?,
+    val Kalaallisut: String?,
 
     /**
      * CentralKhmer
      */
     @SerialName("km")
-    var CentralKhmer: String?,
+    val CentralKhmer: String?,
 
     /**
      * Kannada
      */
     @SerialName("kn")
-    var Kannada: String?,
+    val Kannada: String?,
 
     /**
      * 韩语
      */
     @SerialName("ko")
-    var Korean: String?,
+    val Korean: String?,
 
     /**
      * 罗马化的韩语
      */
     @SerialName("ko-ro")
-    var RomanizedKorean: String?,
+    val RomanizedKorean: String?,
 
     /**
      * Kanuri
      */
     @SerialName("kr")
-    var Kanuri: String?,
+    val Kanuri: String?,
 
     /**
      * Kashmiri
      */
     @SerialName("ks")
-    var Kashmiri: String?,
+    val Kashmiri: String?,
 
     /**
      * Kurdish
      */
     @SerialName("ku")
-    var Kurdish: String?,
+    val Kurdish: String?,
 
     /**
      * Komi
      */
     @SerialName("kv")
-    var Komi: String?,
+    val Komi: String?,
 
     /**
      * Cornish
      */
     @SerialName("kw")
-    var Cornish: String?,
+    val Cornish: String?,
 
     /**
      * Kirghiz
      */
     @SerialName("ky")
-    var Kirghiz: String?,
+    val Kirghiz: String?,
 
     /**
      * Latin
      */
     @SerialName("la")
-    var Latin: String?,
+    val Latin: String?,
 
     /**
      * 卢森堡语
      */
     @SerialName("lb")
-    var Luxembourgish: String?,
+    val Luxembourgish: String?,
 
     /**
      * Ganda
      */
     @SerialName("lg")
-    var Ganda: String?,
+    val Ganda: String?,
 
     /**
      * Limburgan
      */
     @SerialName("li")
-    var Limburgan: String?,
+    val Limburgan: String?,
 
     /**
      * Lingala
      */
     @SerialName("ln")
-    var Lingala: String?,
+    val Lingala: String?,
 
     /**
      * Lao
      */
     @SerialName("lo")
-    var Lao: String?,
+    val Lao: String?,
 
     /**
      * Lithuanian
      */
     @SerialName("lt")
-    var Lithuanian: String?,
+    val Lithuanian: String?,
 
     /**
      * Luba-Katanga
      */
     @SerialName("lu")
-    var LubaKatanga: String?,
+    val LubaKatanga: String?,
 
     /**
      * Latvian
      */
     @SerialName("lv")
-    var Latvian: String?,
+    val Latvian: String?,
 
     /**
      * Malagasy
      */
     @SerialName("mg")
-    var Malagasy: String?,
+    val Malagasy: String?,
 
     /**
      * Marshallese
      */
     @SerialName("mh")
-    var Marshallese: String?,
+    val Marshallese: String?,
 
     /**
      * Maori
      */
     @SerialName("mi")
-    var Maori: String?,
+    val Maori: String?,
 
     /**
      * Macedonian
      */
     @SerialName("mk")
-    var Macedonian: String?,
+    val Macedonian: String?,
 
     /**
      * Malayalam
      */
     @SerialName("ml")
-    var Malayalam: String?,
+    val Malayalam: String?,
 
     /**
      * Mongolian
      */
     @SerialName("mn")
-    var Mongolian: String?,
+    val Mongolian: String?,
 
     /**
      * Marathi
      */
     @SerialName("mr")
-    var Marathi: String?,
+    val Marathi: String?,
 
     /**
      * Malay
      */
     @SerialName("ms")
-    var Malay: String?,
+    val Malay: String?,
 
     /**
      * Maltese
      */
     @SerialName("mt")
-    var Maltese: String?,
+    val Maltese: String?,
 
     /**
      * Burmese
      */
     @SerialName("my")
-    var Burmese: String?,
+    val Burmese: String?,
 
     /**
      * Nauru
      */
     @SerialName("na")
-    var Nauru: String?,
+    val Nauru: String?,
 
     /**
      * Bokmal
      */
     @SerialName("nb")
-    var Bokmal: String?,
+    val Bokmal: String?,
 
     /**
      * Ndebele
      */
     @SerialName("nd")
-    var Ndebele: String?,
+    val Ndebele: String?,
 
     /**
      * Nepali
      */
     @SerialName("ne")
-    var Nepali: String?,
+    val Nepali: String?,
 
     /**
      * Ndonga
      */
     @SerialName("ng")
-    var Ndonga: String?,
+    val Ndonga: String?,
 
     /**
      * Dutch
      */
     @SerialName("nl")
-    var Dutch: String?,
+    val Dutch: String?,
 
     /**
      * NorwegianNynorsk
      */
     @SerialName("nn")
-    var NorwegianNynorsk: String?,
+    val NorwegianNynorsk: String?,
 
     /**
      * Norwegian
      */
     @SerialName("no")
-    var Norwegian: String?,
+    val Norwegian: String?,
 
     /**
      * SouthNdebele
      */
     @SerialName("nr")
-    var SouthNdebele: String?,
+    val SouthNdebele: String?,
 
     /**
      * Navajo
      */
     @SerialName("nv")
-    var Navajo: String?,
+    val Navajo: String?,
 
     /**
      * Chichewa
      */
     @SerialName("ny")
-    var Chichewa: String?,
+    val Chichewa: String?,
 
     /**
      * Occitan(post1500)
      */
     @SerialName("oc")
-    var Occitan: String?,
+    val Occitan: String?,
 
     /**
      * Ojibwa
      */
     @SerialName("oj")
-    var Ojibwa: String?,
+    val Ojibwa: String?,
 
     /**
      * Oromo
      */
     @SerialName("om")
-    var Oromo: String?,
+    val Oromo: String?,
 
     /**
      * Oriya
      */
     @SerialName("or")
-    var Oriya: String?,
+    val Oriya: String?,
 
     /**
      * Ossetian
      */
     @SerialName("os")
-    var Ossetian: String?,
+    val Ossetian: String?,
 
     /**
      * Panjabi
      */
     @SerialName("pa")
-    var Panjabi: String?,
+    val Panjabi: String?,
 
     /**
      * Pali
      */
     @SerialName("pi")
-    var Pali: String?,
+    val Pali: String?,
 
     /**
      * Polish
      */
     @SerialName("pl")
-    var Polish: String?,
+    val Polish: String?,
 
     /**
      * Pushto
      */
     @SerialName("ps")
-    var Pushto: String?,
+    val Pushto: String?,
 
     /**
      * 葡萄牙语
      */
     @SerialName("pt")
-    var Portuguese: String?,
+    val Portuguese: String?,
 
     /**
      * 巴西葡萄牙语
      */
     @SerialName("pt-br")
-    var BrazilianPortugese: String?,
+    val BrazilianPortugese: String?,
 
     /**
      * Quechua
      */
     @SerialName("qu")
-    var Quechua: String?,
+    val Quechua: String?,
 
     /**
      * Romansh
      */
     @SerialName("rm")
-    var Romansh: String?,
+    val Romansh: String?,
 
     /**
      * Rundi
      */
     @SerialName("rn")
-    var Rundi: String?,
+    val Rundi: String?,
 
     /**
      * Romanian
      */
     @SerialName("ro")
-    var Romanian: String?,
+    val Romanian: String?,
 
     /**
      * Russian
      */
     @SerialName("ru")
-    var Russian: String?,
+    val Russian: String?,
 
     /**
      * Kinyarwanda
      */
     @SerialName("rw")
-    var Kinyarwanda: String?,
+    val Kinyarwanda: String?,
 
     /**
      * Sanskrit
      */
     @SerialName("sa")
-    var Sanskrit: String?,
+    val Sanskrit: String?,
 
     /**
      * Sardinian
      */
     @SerialName("sc")
-    var Sardinian: String?,
+    val Sardinian: String?,
 
     /**
      * Sindhi
      */
     @SerialName("sd")
-    var Sindhi: String?,
+    val Sindhi: String?,
 
     /**
      * NorthernSami
      */
     @SerialName("se")
-    var NorthernSami: String?,
+    val NorthernSami: String?,
 
     /**
      * Sango
      */
     @SerialName("sg")
-    var Sango: String?,
+    val Sango: String?,
 
     /**
      * Sinhala
      */
     @SerialName("si")
-    var Sinhala: String?,
+    val Sinhala: String?,
 
     /**
      * Slovak
      */
     @SerialName("sk")
-    var Slovak: String?,
+    val Slovak: String?,
 
     /**
      * Slovenian
      */
     @SerialName("sl")
-    var Slovenian: String?,
+    val Slovenian: String?,
 
     /**
      * Samoan
      */
     @SerialName("sm")
-    var Samoan: String?,
+    val Samoan: String?,
 
     /**
      * Shona
      */
     @SerialName("sn")
-    var Shona: String?,
+    val Shona: String?,
 
     /**
      * Somali
      */
     @SerialName("so")
-    var Somali: String?,
+    val Somali: String?,
 
     /**
      * Albanian
      */
     @SerialName("sq")
-    var Albanian: String?,
+    val Albanian: String?,
 
     /**
      * Serbian
      */
     @SerialName("sr")
-    var Serbian: String?,
+    val Serbian: String?,
 
     /**
      * Swati
      */
     @SerialName("ss")
-    var Swati: String?,
+    val Swati: String?,
 
     /**
      * Sotho
      */
     @SerialName("st")
-    var Sotho: String?,
+    val Sotho: String?,
 
     /**
      * Sundanese
      */
     @SerialName("su")
-    var Sundanese: String?,
+    val Sundanese: String?,
 
     /**
      * Swedish
      */
     @SerialName("sv")
-    var Swedish: String?,
+    val Swedish: String?,
 
     /**
      * Swahili
      */
     @SerialName("sw")
-    var Swahili: String?,
+    val Swahili: String?,
 
     /**
      * Tamil
      */
     @SerialName("ta")
-    var Tamil: String?,
+    val Tamil: String?,
 
     /**
      * Telugu
      */
     @SerialName("te")
-    var Telugu: String?,
+    val Telugu: String?,
 
     /**
      * Tajik
      */
     @SerialName("tg")
-    var Tajik: String?,
+    val Tajik: String?,
 
     /**
      * Thai
      */
     @SerialName("th")
-    var Thai: String?,
+    val Thai: String?,
 
     /**
      * Tigrinya
      */
     @SerialName("ti")
-    var Tigrinya: String?,
+    val Tigrinya: String?,
 
     /**
      * Turkmen
      */
     @SerialName("tk")
-    var Turkmen: String?,
+    val Turkmen: String?,
 
     /**
      * Tagalog
      */
     @SerialName("tl")
-    var Tagalog: String?,
+    val Tagalog: String?,
 
     /**
      * Tswana
      */
     @SerialName("tn")
-    var Tswana: String?,
+    val Tswana: String?,
 
     /**
      * Tonga(TongaIslands)
      */
     @SerialName("to")
-    var Tonga: String?,
+    val Tonga: String?,
 
     /**
      * Turkish
      */
     @SerialName("tr")
-    var Turkish: String?,
+    val Turkish: String?,
 
     /**
      * Tsonga
      */
     @SerialName("ts")
-    var Tsonga: String?,
+    val Tsonga: String?,
 
     /**
      * Tatar
      */
     @SerialName("tt")
-    var Tatar: String?,
+    val Tatar: String?,
 
     /**
      * Twi
      */
     @SerialName("tw")
-    var Twi: String?,
+    val Twi: String?,
 
     /**
      * Tahitian
      */
     @SerialName("ty")
-    var Tahitian: String?,
+    val Tahitian: String?,
 
     /**
      * Uighur
      */
     @SerialName("ug")
-    var Uighur: String?,
+    val Uighur: String?,
 
     /**
      * Ukrainian
      */
     @SerialName("uk")
-    var Ukrainian: String?,
+    val Ukrainian: String?,
 
     /**
      * Urdu
      */
     @SerialName("ur")
-    var Urdu: String?,
+    val Urdu: String?,
 
     /**
      * Uzbek
      */
     @SerialName("uz")
-    var Uzbek: String?,
+    val Uzbek: String?,
 
     /**
      * Venda
      */
     @SerialName("ve")
-    var Venda: String?,
+    val Venda: String?,
 
     /**
      * Vietnamese
      */
     @SerialName("vi")
-    var Vietnamese: String?,
+    val Vietnamese: String?,
 
     /**
      * Volapük
      */
     @SerialName("vo")
-    var Volapuk: String?,
+    val Volapuk: String?,
 
     /**
      * Walloon
      */
     @SerialName("wa")
-    var Walloon: String?,
+    val Walloon: String?,
 
     /**
      * Wolof
      */
     @SerialName("wo")
-    var Wolof: String?,
+    val Wolof: String?,
 
     /**
      * Xhosa
      */
     @SerialName("xh")
-    var Xhosa: String?,
+    val Xhosa: String?,
 
     /**
      * Yiddish
      */
     @SerialName("yi")
-    var Yiddish: String?,
+    val Yiddish: String?,
 
     /**
      * Yoruba
      */
     @SerialName("yo")
-    var Yoruba: String?,
+    val Yoruba: String?,
 
     /**
      * Zhuang
      */
     @SerialName("za")
-    var Zhuang: String?,
+    val Zhuang: String?,
 
     /**
      * 简体中文
      */
     @SerialName("zh")
-    var SimplifiedChinese: String?,
+    val SimplifiedChinese: String?,
 
     /**
      * 繁体中文
      */
     @SerialName("zh-hk")
-    var TraditionalChinese: String?,
+    val TraditionalChinese: String?,
 
     /**
      * 罗马化的中文
      */
     @SerialName("zh-ro")
-    var RomanizedChinese: String?,
+    val RomanizedChinese: String?,
 
     /**
      * Zulu
      */
     @SerialName("zu")
-    var Zulu: String?,
+    val Zulu: String?,
 )

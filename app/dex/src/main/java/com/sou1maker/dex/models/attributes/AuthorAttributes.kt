@@ -27,44 +27,44 @@ import kotlinx.serialization.*
 @Serializable
 data class AuthorAttributes(
     @SerialName("name")
-    var Name: String,
+    val Name: String,
     @SerialName("imageUrl")
-    var ImageUrl: String,
+    val ImageUrl: String,
 
     // TODO: object or array
     @SerialName("biography")
-    var Biography: LocalizedString?,
+    val Biography: LocalizedString?,
     @SerialName("twitter")
-    var Twitter: String?,
+    val Twitter: String?,
     @SerialName("pixiv")
-    var Pixiv: String?,
+    val Pixiv: String?,
     @SerialName("melonBook")
-    var MelonBook: String?,
+    val MelonBook: String?,
     @SerialName("fanBox")
-    var FanBox: String?,
+    val FanBox: String?,
     @SerialName("booth")
-    var Booth: String?,
+    val Booth: String?,
     @SerialName("nicoVideo")
-    var NicoVideo: String?,
+    val NicoVideo: String?,
     @SerialName("skeb")
-    var Skeb: String?,
+    val Skeb: String?,
     @SerialName("fantia")
-    var Fantia: String?,
+    val Fantia: String?,
     @SerialName("tumblr")
-    var Tumblr: String?,
+    val Tumblr: String?,
     @SerialName("youtube")
-    var Youtube: String?,
+    val Youtube: String?,
     @SerialName("weibo")
-    var Weibo: String?,
+    val Weibo: String?,
     @SerialName("naver")
-    var Naver: String?,
+    val Naver: String?,
     @SerialName("website")
-    var Website: String?,
+    val Website: String?,
 
     @SerialName("createdAt")
-    var CreatedAt: String,
+    val CreatedAt: String,
     @SerialName("updatedAt")
-    var UpdatedAt: String,
+    val UpdatedAt: String,
     @SerialName("version")
-    var Version: Int,
+    val Version: Int,
 )

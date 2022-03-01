@@ -14,7 +14,7 @@ import kotlinx.serialization.*
 @Serializable
 data class AtHome(
     @SerialName("baseUrl")
-    var BaseUrl: String,
+    val BaseUrl: String,
     @SerialName("chapter")
-    var Chapter: AtHomeChapter
+    val Chapter: AtHomeChapter
 )

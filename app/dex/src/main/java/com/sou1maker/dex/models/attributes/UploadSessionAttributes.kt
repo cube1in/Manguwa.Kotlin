@@ -12,16 +12,16 @@ import kotlinx.serialization.*
 @Serializable
 data class UploadSessionAttributes(
     @SerialName("isCommitted")
-    var IsCommitted: Boolean,
+    val IsCommitted: Boolean,
     @SerialName("isProcessed")
-    var IsProcessed: Boolean,
+    val IsProcessed: Boolean,
     @SerialName("isDeleted")
-    var IsDeleted: Boolean,
+    val IsDeleted: Boolean,
 
     @SerialName("createdAt")
-    var CreatedAt: String,
+    val CreatedAt: String,
     @SerialName("updatedAt")
-    var UpdatedAt: String,
+    val UpdatedAt: String,
     @SerialName("version")
-    var Version: Int,
+    val Version: Int,
 )

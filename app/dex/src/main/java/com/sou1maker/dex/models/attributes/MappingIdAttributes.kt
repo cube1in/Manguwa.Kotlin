@@ -13,9 +13,9 @@ import kotlinx.serialization.*
 @Serializable
 data class MappingIdAttributes(
     @SerialName("type")
-    var Type: Type,
+    val Type: Type,
     @SerialName("legacyId")
-    var LegacyId: Int,
+    val LegacyId: Int,
     @SerialName("newId ")
-    var NewId: Int,
+    val NewId: Int,
 )

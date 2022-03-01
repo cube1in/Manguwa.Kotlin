@@ -13,10 +13,10 @@ import kotlinx.serialization.*
 @Serializable
 data class CustomListAttributes(
     @SerialName("name")
-    var Name: String,
+    val Name: String,
     @SerialName("visibility")
-    var Visibility: Visibility,
+    val Visibility: Visibility,
     
     @SerialName("version")
-    var Version: Int,
+    val Version: Int,
 )

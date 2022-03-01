@@ -16,12 +16,12 @@ import kotlinx.serialization.*
 @Serializable
 data class ReportReasonsAttributes(
     @SerialName("reason")
-    var Reason: LocalizedString,
+    val Reason: LocalizedString,
     @SerialName("detailsRequired")
-    var DetailsRequired: Boolean,
+    val DetailsRequired: Boolean,
     @SerialName("category")
-    var Category: ReportCategory,
+    val Category: ReportCategory,
 
     @SerialName("version")
-    var Version: Int,
+    val Version: Int,
 )
