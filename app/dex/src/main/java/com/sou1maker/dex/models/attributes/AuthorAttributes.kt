@@ -25,6 +25,7 @@ import kotlinx.serialization.*
  */
 @Suppress("unused", "SpellCheckingInspection")
 @Serializable
+@SerialName("author")
 data class AuthorAttributes(
     @SerialName("name")
     val Name: String,
@@ -33,33 +34,33 @@ data class AuthorAttributes(
 
     // TODO: object or array
     @SerialName("biography")
-    val Biography: LocalizedString?,
+    val Biography: LocalizedString? = null,
     @SerialName("twitter")
-    val Twitter: String?,
+    val Twitter: String? = null,
     @SerialName("pixiv")
-    val Pixiv: String?,
+    val Pixiv: String? = null,
     @SerialName("melonBook")
-    val MelonBook: String?,
+    val MelonBook: String? = null,
     @SerialName("fanBox")
-    val FanBox: String?,
+    val FanBox: String? = null,
     @SerialName("booth")
-    val Booth: String?,
+    val Booth: String? = null,
     @SerialName("nicoVideo")
-    val NicoVideo: String?,
+    val NicoVideo: String? = null,
     @SerialName("skeb")
-    val Skeb: String?,
+    val Skeb: String? = null,
     @SerialName("fantia")
-    val Fantia: String?,
+    val Fantia: String? = null,
     @SerialName("tumblr")
-    val Tumblr: String?,
+    val Tumblr: String? = null,
     @SerialName("youtube")
-    val Youtube: String?,
+    val Youtube: String? = null,
     @SerialName("weibo")
-    val Weibo: String?,
+    val Weibo: String? = null,
     @SerialName("naver")
-    val Naver: String?,
+    val Naver: String? = null,
     @SerialName("website")
-    val Website: String?,
+    val Website: String? = null,
 
     @SerialName("createdAt")
     val CreatedAt: String,
@@ -67,4 +68,4 @@ data class AuthorAttributes(
     val UpdatedAt: String,
     @SerialName("version")
     val Version: Int,
-)
+):Attributes()

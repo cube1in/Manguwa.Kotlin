@@ -5,16 +5,17 @@ import kotlinx.serialization.*
 /**
  * 用户属性
  * @property Username String
- * @property Roles Iterable<String>
+ * @property Roles List<String>
  * @constructor
  */
 @Serializable
+@SerialName("user")
 data class UserAttributes(
     @SerialName("username")
     val Username: String,
     @SerialName("roles")
-    val Roles: Iterable<String>,
+    val Roles: List<String>,
 
     @SerialName("version")
     val Version: Int,
-)
+):Attributes()

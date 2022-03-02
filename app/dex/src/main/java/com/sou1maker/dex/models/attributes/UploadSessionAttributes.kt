@@ -10,6 +10,7 @@ import kotlinx.serialization.*
  * @constructor
  */
 @Serializable
+@SerialName("upload_session")
 data class UploadSessionAttributes(
     @SerialName("isCommitted")
     val IsCommitted: Boolean,
@@ -24,4 +25,4 @@ data class UploadSessionAttributes(
     val UpdatedAt: String,
     @SerialName("version")
     val Version: Int,
-)
+):Attributes()

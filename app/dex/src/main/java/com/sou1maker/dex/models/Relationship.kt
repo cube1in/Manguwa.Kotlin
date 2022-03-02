@@ -1,6 +1,7 @@
 package com.sou1maker.dex.models
 
 import com.sou1maker.dex.models.enums.*
+import com.sou1maker.dex.models.attributes.Attributes
 import kotlinx.serialization.*
 
 /**
@@ -18,7 +19,7 @@ data class Relationship(
     @SerialName("type")
     val Type: Type,
     @SerialName("related")
-    val Related: Related?,
+    val Related: Related? = null,
     @SerialName("attributes")
-    val Attributes: Any
+    var Attributes:Attributes? = null
 )

@@ -9,10 +9,11 @@ import kotlinx.serialization.*
  * @constructor
  */
 @Serializable
+@SerialName("manga_relation")
 data class MangaRelationAttributes(
     @SerialName("relation")
     val Relation: Related,
 
     @SerialName("version")
     val Version: Int,
-)
+):Attributes()

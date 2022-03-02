@@ -13,6 +13,7 @@ import kotlinx.serialization.*
  * @constructor
  */
 @Serializable
+@SerialName("upload_session_file")
 data class UploadSessionFileAttributes(
     @SerialName("originalFileName")
     val OriginalFileName: String,
@@ -27,4 +28,4 @@ data class UploadSessionFileAttributes(
 
     @SerialName("version")
     val Version: Int,
-)
+):Attributes()

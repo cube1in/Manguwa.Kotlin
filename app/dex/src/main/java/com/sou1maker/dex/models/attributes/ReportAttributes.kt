@@ -12,6 +12,7 @@ import kotlinx.serialization.*
  * @constructor
  */
 @Serializable
+@SerialName("report")
 data class ReportAttributes(
     @SerialName("objectId")
     val ObjectId: String,
@@ -21,4 +22,4 @@ data class ReportAttributes(
     val Status: ReportStatus,
     @SerialName("createdAt")
     val CreatedAt: String,
-)
+):Attributes()

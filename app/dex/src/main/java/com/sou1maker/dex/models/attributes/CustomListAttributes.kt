@@ -1,6 +1,6 @@
 package com.sou1maker.dex.models.attributes
 
-import android.opengl.Visibility
+import com.sou1maker.dex.models.enums.Visibility
 import kotlinx.serialization.*
 
 /**
@@ -11,12 +11,13 @@ import kotlinx.serialization.*
  */
 @Suppress("unused")
 @Serializable
+@SerialName("custom_list")
 data class CustomListAttributes(
     @SerialName("name")
     val Name: String,
     @SerialName("visibility")
     val Visibility: Visibility,
-    
+
     @SerialName("version")
     val Version: Int,
-)
+):Attributes()

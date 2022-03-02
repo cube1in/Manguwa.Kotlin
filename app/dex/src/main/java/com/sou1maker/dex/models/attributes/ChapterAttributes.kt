@@ -9,13 +9,18 @@ import kotlinx.serialization.*
  * @property ReadableAt String
  * @property Uploader String
  * @property TranslatedLanguage String
- * @property Volume String
+ * @property Volume String?
+ * @property Chapter String?
  * @property Pages String
- * @property ExternalUrl String
+ * @property ExternalUrl String?
+ * @property CreatedAt String
+ * @property UpdatedAt String
+ * @property Version Int
  * @constructor
  */
 @Suppress("unused")
 @Serializable
+@SerialName("chapter")
 data class ChapterAttributes(
     @SerialName("title")
     val Title: String,
@@ -28,13 +33,13 @@ data class ChapterAttributes(
     @SerialName("translatedLanguage")
     val TranslatedLanguage: String,
     @SerialName("volume")
-    val Volume: String?,
+    val Volume: String? = null,
     @SerialName("chapter")
-    val Chapter: String?,
+    val Chapter: String? = null,
     @SerialName("pages")
     val Pages: String,
     @SerialName("externalUrl")
-    val ExternalUrl: String?,
+    val ExternalUrl: String? = null,
 
     @SerialName("createdAt")
     val CreatedAt: String,
@@ -42,4 +47,4 @@ data class ChapterAttributes(
     val UpdatedAt: String,
     @SerialName("version")
     val Version: Int,
-)
+):Attributes()

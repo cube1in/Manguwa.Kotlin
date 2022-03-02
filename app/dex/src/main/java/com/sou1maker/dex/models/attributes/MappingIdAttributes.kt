@@ -11,6 +11,7 @@ import kotlinx.serialization.*
  * @constructor
  */
 @Serializable
+@SerialName("mapping_id")
 data class MappingIdAttributes(
     @SerialName("type")
     val Type: Type,
@@ -18,4 +19,4 @@ data class MappingIdAttributes(
     val LegacyId: Int,
     @SerialName("newId ")
     val NewId: Int,
-)
+):Attributes()

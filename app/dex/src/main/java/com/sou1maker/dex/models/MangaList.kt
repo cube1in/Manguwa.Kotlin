@@ -5,7 +5,7 @@ import kotlinx.serialization.*
 
 /**
  * 漫画列表
- * @property Data Iterable<Manga>
+ * @property Data List<Manga>
  * @property Limit Int
  * @property Offset Int
  * @property Total Int
@@ -16,17 +16,17 @@ import kotlinx.serialization.*
 @Serializable
 data class MangaList(
     @SerialName("data")
-    val Data: Iterable<Manga>,
+    var Data: List<Manga>,
 
     @SerialName("limit")
-    val Limit: Int,
+    var Limit: Int,
     @SerialName("offset")
-    val Offset: Int,
+    var Offset: Int,
     @SerialName("total")
-    val Total: Int,
+    var Total: Int,
 
     @SerialName("response")
-    val Response: Response,
+    var Response: Response,
     @SerialName("result")
-    val Result: Result,
+    var Result: Result,
 )

@@ -5,8 +5,8 @@ import kotlinx.serialization.*
 /**
  * 章节
  * @property Hash String 哈希
- * @property Data Iterable<String> 原始质量数据
- * @property DataSaver Iterable<String> 压缩质量数据
+ * @property Data List<String> 原始质量数据
+ * @property DataSaver List<String> 压缩质量数据
  * @constructor
  */
 @Serializable
@@ -14,7 +14,7 @@ data class AtHomeChapter(
     @SerialName("hash")
     val Hash: String,
     @SerialName("data")
-    val Data: Iterable<String>,
+    val Data: List<String>,
     @SerialName("dataSaver")
-    val DataSaver: Iterable<String>
+    val DataSaver: List<String>
 )

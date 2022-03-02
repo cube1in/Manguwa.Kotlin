@@ -6,7 +6,7 @@ import kotlinx.serialization.*
 /**
  * 扫描组属性
  * @property Name String
- * @property AltNames Iterable<LocalizedString>
+ * @property AltNames List<LocalizedString>
  * @property Website String?
  * @property IrcServer String?
  * @property IrcChannel String?
@@ -15,7 +15,7 @@ import kotlinx.serialization.*
  * @property Description String?
  * @property Twitter String?
  * @property MangaUpdates String?
- * @property FocusedLanguage Iterable<String>?
+ * @property FocusedLanguage List<String>?
  * @property Locked Boolean
  * @property Official Boolean
  * @property Inactive Boolean
@@ -24,29 +24,30 @@ import kotlinx.serialization.*
  */
 @Suppress("SpellCheckingInspection")
 @Serializable
+@SerialName("scanlation_group")
 data class ScanlationGroupAttributes(
     @SerialName("name")
     val Name: String,
     @SerialName("altNames")
-    val AltNames: Iterable<LocalizedString>,
+    val AltNames: List<LocalizedString>,
     @SerialName("website")
-    val Website: String?,
+    val Website: String? = null,
     @SerialName("ircServer")
-    val IrcServer: String?,
+    val IrcServer: String? = null,
     @SerialName("ircChannel")
-    val IrcChannel: String?,
+    val IrcChannel: String? = null,
     @SerialName("discord")
-    val Discord: String?,
+    val Discord: String? = null,
     @SerialName("contactEmail")
-    val ContactEmail: String?,
+    val ContactEmail: String? = null,
     @SerialName("description")
-    val Description: String?,
+    val Description: String? = null,
     @SerialName("twitter")
-    val Twitter: String?,
+    val Twitter: String? = null,
     @SerialName("mangaUpdates")
-    val MangaUpdates: String?,
+    val MangaUpdates: String? = null,
     @SerialName("focusedLanguage")
-    val FocusedLanguage: Iterable<String>?,
+    val FocusedLanguage: List<String>? = null,
     @SerialName("locked")
     val Locked: Boolean,
     @SerialName("official")
@@ -62,4 +63,4 @@ data class ScanlationGroupAttributes(
     val UpdatedAt: String,
     @SerialName("version")
     val Version: Int,
-)
+):Attributes()

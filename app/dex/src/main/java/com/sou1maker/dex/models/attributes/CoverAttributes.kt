@@ -12,15 +12,16 @@ import kotlinx.serialization.*
  */
 @Suppress("unused")
 @Serializable
+@SerialName("cover_art")
 data class CoverAttributes(
     @SerialName("fileName")
     val FileName: String,
     @SerialName("volume")
-    val Volume: String?,
+    val Volume: String? = null,
     @SerialName("description")
-    val Description: String?,
+    val Description: String? = null,
     @SerialName("locale")
-    val Locale: String?,
+    val Locale: String? = null,
 
     @SerialName("createdAt")
     val CreatedAt: String,
@@ -28,4 +29,4 @@ data class CoverAttributes(
     val UpdatedAt: String,
     @SerialName("version")
     val Version: Int,
-)
+):Attributes()
